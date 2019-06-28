@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MIBViewer.jnlp">
+  <information>
+    <title>MIBViewer</title>
+    <vendor>3IC</vendor>
+    <description>MIBViewer</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="MIBViewer.jar" size="34226" download="eager" />
+    <jar href="libs\fxlib-common.jar" size="476165" download="eager" />
+    <jar href="libs\snmp4j-2.4.3.jar" size="473413" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="com.threeic.mibview.Viewer"  name="MIBViewer" />
+  <update check="background"/>
+</jnlp>
